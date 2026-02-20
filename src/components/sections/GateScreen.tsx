@@ -155,7 +155,7 @@ export default function GateScreen({ onUnlock }: GateScreenProps) {
             >
             </motion.p>
             
-            {/* Botão temporário para preview */}
+            {/* Botão temporário para preview
             <motion.button
               onClick={() => { setUnlocking(true); setTimeout(() => onUnlock(), 800); }}
               className="mt-8 px-6 py-2 rounded-full border border-primary/30 text-primary/60 font-body text-sm tracking-widest uppercase hover:bg-primary/10 transition-colors"
@@ -164,7 +164,7 @@ export default function GateScreen({ onUnlock }: GateScreenProps) {
               transition={{ delay: 3 }}
             >
               Pular para preview →
-            </motion.button>
+            </motion.button>*/}
 
           </motion.div>
         </motion.div>
